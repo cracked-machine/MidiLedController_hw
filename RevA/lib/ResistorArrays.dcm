@@ -1,0 +1,15 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP RAx2
+F https://www.mouser.co.uk/datasheet/2/447/PYu-YC_TC_group_51_RoHS_L_7-1313905.pdf
+$ENDCMP
+#
+$CMP RAx4
+F https://www.mouser.co.uk/datasheet/2/447/PYu-YC_TC_group_51_RoHS_L_7-1313905.pdf
+$ENDCMP
+#
+$CMP RAx4_4
+D Resistor Array (x4) split into individual units
+$ENDCMP
+#
+#End Doc Library

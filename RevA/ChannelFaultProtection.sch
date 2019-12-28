@@ -1,0 +1,76 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 11 29
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text HLabel 4700 2300 0    50   Input ~ 0
+VIN
+Text Notes 4500 2175 0    50   ~ 0
+9V-12V
+Text Notes 4150 1625 0    100  ~ 0
+FAULT PROTECTIONS
+Wire Notes Line
+	1250 4950 10300 4950
+$Comp
+L OnSemiProtectedFETS:NCV8450 U_LOAD2
+U 1 1 5DF57DA8
+P 5950 2950
+AR Path="/5DEA837C/5DF57DA8" Ref="U_LOAD2"  Part="1" 
+AR Path="/5DE5D23A/5DF57DA8" Ref="U_LOAD1"  Part="1" 
+AR Path="/5DEC12C0/5DF57DA8" Ref="U_LOAD3"  Part="1" 
+AR Path="/5DEDD39E/5DF57DA8" Ref="U_LOAD4"  Part="1" 
+AR Path="/5DEF8D56/5DF57DA8" Ref="U_LOAD5"  Part="1" 
+AR Path="/5DF13CF4/5DF57DA8" Ref="U_LOAD6"  Part="1" 
+AR Path="/5DF2D840/5DF57DA8" Ref="U_LOAD7"  Part="1" 
+AR Path="/5DF46F3E/5DF57DA8" Ref="U_LOAD8"  Part="1" 
+AR Path="/5DF61078/5DF57DA8" Ref="U_LOAD9"  Part="1" 
+F 0 "U_LOAD1" H 5950 2677 50  0000 C CNN
+F 1 "NCV8450" H 5950 2586 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-223-3_TabPin2" H 5950 2700 50  0001 C CNN
+F 3 "" H 5950 3100 50  0001 C CNN
+	1    5950 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5950 2300 5950 2550
+Wire Wire Line
+	5400 2950 5075 2950
+Wire Wire Line
+	5075 2950 5075 3600
+$Comp
+L power:GNDS #PWR039
+U 1 1 5DF5C5FE
+P 5075 3600
+AR Path="/5DEA837C/5DF5C5FE" Ref="#PWR039"  Part="1" 
+AR Path="/5DE5D23A/5DF5C5FE" Ref="#PWR038"  Part="1" 
+AR Path="/5DEC12C0/5DF5C5FE" Ref="#PWR040"  Part="1" 
+AR Path="/5DEDD39E/5DF5C5FE" Ref="#PWR041"  Part="1" 
+AR Path="/5DEF8D56/5DF5C5FE" Ref="#PWR042"  Part="1" 
+AR Path="/5DF13CF4/5DF5C5FE" Ref="#PWR043"  Part="1" 
+AR Path="/5DF2D840/5DF5C5FE" Ref="#PWR044"  Part="1" 
+AR Path="/5DF46F3E/5DF5C5FE" Ref="#PWR045"  Part="1" 
+AR Path="/5DF61078/5DF5C5FE" Ref="#PWR047"  Part="1" 
+F 0 "#PWR038" H 5075 3350 50  0001 C CNN
+F 1 "GNDS" H 5080 3427 50  0000 C CNN
+F 2 "" H 5075 3600 50  0001 C CNN
+F 3 "" H 5075 3600 50  0001 C CNN
+	1    5075 3600
+	1    0    0    -1  
+$EndComp
+Text HLabel 7725 2950 2    50   Input ~ 0
+CH_PWR
+Wire Wire Line
+	6500 2950 7725 2950
+Wire Wire Line
+	4700 2300 5950 2300
+$EndSCHEMATC
