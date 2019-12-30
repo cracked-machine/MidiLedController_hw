@@ -49,3 +49,11 @@ A _red_ power fault status such as over current or short circuit will **always**
 <p align="center">
 <img width="800" height="600" src="V4/HW/MidiDrumTeacherModule/docs/overview/StatusLED_V4.svg">
 </p>
+
+### TODO
+
+* upgrade SMPS to drop-in 3A components (TP56339, TPS54302, TPS54309). Considerations are Fsw/L1 size, Thermal Limits and cooling.
+* Upgrade output series SOT23 transistor to higher currrent/thermal limit component...or to larger component (SOT223?)
+* Test audio input triggering
+* Additional pot control for reset delay (dual gang/ concetric pot)
+* Upgrade DIP4 to DIP6

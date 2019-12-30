@@ -2,4 +2,5 @@
   (lib (name custom_sockets)(type KiCad)(uri ${KIPRJMOD}/lib/custom_sockets.pretty)(options "")(descr ""))
   (lib (name custom_sw)(type KiCad)(uri ${KIPRJMOD}/lib/custom_sw.pretty)(options "")(descr ""))
   (lib (name DailywellSwitches)(type KiCad)(uri ${KIPRJMOD}/lib/DailywellSwitches.pretty)(options "")(descr ""))
+  (lib (name PTH901)(type KiCad)(uri ${KIPRJMOD}/lib/PTH901.pretty)(options "")(descr ""))
 )
