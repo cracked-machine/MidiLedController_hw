@@ -2,6 +2,8 @@
 
 MIDI LED Controller for drum pattern sequencing.
 
+[SW Repo](https://github.com/cracked-machine/MidiLedController_sw)
+
 ## Detailed Specifications:
 
 Power Supply: 12V @ 2A (center positive).
