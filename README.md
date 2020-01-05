@@ -1,4 +1,4 @@
-# MIDI_Drum_Teacher
+# MIDI LED Controller
 
 MIDI LED Controller for drum pattern sequencing.
 
