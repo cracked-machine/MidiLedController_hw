@@ -21,7 +21,7 @@ Total current consumption (fault limit): 2A
  A 12V DC input supply is stepped-down to 10V. Most of this will be used to power the LEDs. This is regulated down to provide 5V @ 100mA for the status leds. Additionally 3.3V @ 20mA is provided to the microcontroller.
 
 <p align="center">
-<img width="800" height="300" src="V4/HW/MidiDrumTeacherModule/docs/overview/Power%20Supply.svg">
+<img width="800" height="300" src="docs/overview/Power%20Supply.svg">
 </p>
 
 ### Output Channel overview
@@ -35,7 +35,7 @@ Total current consumption (fault limit): 2A
  Individual output channel status is indicated with a tricolour LED.  See details on the Status LED sub-system below.
 
 <p align="center">
-<img width="800" height="600" src="V4/HW/MidiDrumTeacherModule/docs/overview/MIDI%20LED%20Controller%20System%20Overview.svg">
+<img width="800" height="600" src="docs/overview/MIDI%20LED%20Controller%20System%20Overview.svg">
 </p>
 
 ### Output channel status LED statemachine
@@ -49,7 +49,7 @@ When the load is connected, the status LED will **always** remain solid _green_.
 A _red_ power fault status such as over current or short circuit will **always** override the other status colours.
 
 <p align="center">
-<img width="800" height="600" src="V4/HW/MidiDrumTeacherModule/docs/overview/StatusLED_V4.svg">
+<img width="800" height="600" src="docs/overview/StatusLED_V4.svg">
 </p>
 
 ### TODO
