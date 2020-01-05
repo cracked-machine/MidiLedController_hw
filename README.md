@@ -1,4 +1,4 @@
-# MIDI LED Controller
+# MIDI LED Controller (HW)
 
 MIDI LED Controller for drum pattern sequencing.
 
