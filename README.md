@@ -2,7 +2,8 @@
 
 MIDI LED Controller for drum pattern sequencing.
 
-[SW Repo](https://github.com/cracked-machine/MidiLedController_sw)
+For the corresponding SW repository:
+[MidiLedController_sw](https://github.com/cracked-machine/MidiLedController_sw)
 
 ## Detailed Specifications:
 
