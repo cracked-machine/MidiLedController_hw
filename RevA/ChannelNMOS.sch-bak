@@ -129,4 +129,6 @@ F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf" H 6500 4875 50  000
 	1    6500 4875
 	1    0    0    -1  
 $EndComp
+Text Notes 7325 4600 0    50   ~ 0
+Input signal at base will pull \nCH_CATHODE down to ground
 $EndSCHEMATC

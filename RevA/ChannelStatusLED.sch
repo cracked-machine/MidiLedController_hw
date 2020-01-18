@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 29
+Sheet 10 29
 Title ""
 Date ""
 Rev ""
@@ -442,7 +442,7 @@ Wire Wire Line
 Wire Wire Line
 	1650 1900 3450 1900
 Text Notes 875  5900 0    50   ~ 0
-OUTPUT CHANNEL INSERTED:\nPulled high to 5V\n\nOUTPUT CHANNEL REMOVED:\nConnected to CH_CATHODE \n(see ChannelNMOS block)
+OUTPUT CHANNEL INSERTED:\nPulled high to 5V\n\nOUTPUT CHANNEL REMOVED:\nPUlled low by 10K resistor
 $Comp
 L power:GNDS #PWR0115
 U 1 1 5E033493
