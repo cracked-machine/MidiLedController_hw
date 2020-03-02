@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TPS255x
+D Precision Adjustable Current-Limited Power-Distribution Switches
+K Precision Adjustable Current-Limited Power-Distribution Switches
+F http://www.ti.com/lit/ds/symlink/tps2553.pdf
+$ENDCMP
+#
+#End Doc Library
