@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 26 29
+Sheet 20 29
 Title ""
 Date ""
 Rev ""
@@ -98,10 +98,11 @@ AR Path="/5E1FED22/5EAB52D0" Ref="U12"  Part="1"
 AR Path="/5E231370/5EAB52D0" Ref="U14"  Part="1" 
 AR Path="/5E2651B2/5EAB52D0" Ref="U16"  Part="1" 
 AR Path="/5E29F140/5EAB52D0" Ref="U18"  Part="1" 
-F 0 "U16" V 6554 4063 50  0000 L CNN
+F 0 "U2" V 6554 4063 50  0000 L CNN
 F 1 "RAx4_4 1K" V 6645 4063 50  0000 L CNN
 F 2 "Resistor_SMD:R_Array_Convex_4x0603" H 6600 3875 50  0001 C CNN
-F 3 "" H 6600 3975 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/1912111437_HX-hengjiaxing-HX2301A_C296298.pdf" H 6600 3975 50  0001 C CNN
+F 4 "C396839" V 6600 3975 50  0001 C CNN "Type"
 	1    6600 3975
 	0    1    1    0   
 $EndComp
@@ -122,10 +123,11 @@ AR Path="/5E1FED22/5E01FEAF" Ref="QLOAD6"  Part="1"
 AR Path="/5E231370/5E01FEAF" Ref="QLOAD7"  Part="1" 
 AR Path="/5E2651B2/5E01FEAF" Ref="QLOAD8"  Part="1" 
 AR Path="/5E29F140/5E01FEAF" Ref="QLOAD9"  Part="1" 
-F 0 "QLOAD8" H 6691 4921 50  0000 L CNN
+F 0 "QLOAD1" H 6691 4921 50  0000 L CNN
 F 1 "MMBT3904" H 6691 4830 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 6700 4800 50  0001 L CIN
-F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf" H 6500 4875 50  0001 L CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/1810202112_Guangdong-Hottech-MMBT3904_C181119.pdf" H 6500 4875 50  0001 L CNN
+F 4 "C20526" H 6500 4875 50  0001 C CNN "LcscNo"
 	1    6500 4875
 	1    0    0    -1  
 $EndComp
