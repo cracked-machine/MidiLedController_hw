@@ -11,4 +11,5 @@
   (lib (name DiodesIncLoadSwitches)(type Legacy)(uri ${KIPRJMOD}/lib/DiodesIncLoadSwitches.lib)(options "")(descr ""))
   (lib (name OnSemiProtectedFETS)(type Legacy)(uri ${KIPRJMOD}/lib/OnSemiProtectedFETS.lib)(options "")(descr ""))
   (lib (name MidiLedController-rescue)(type Legacy)(uri ${KIPRJMOD}/MidiLedController-rescue.lib)(options "")(descr ""))
+  (lib (name TLP2361)(type Legacy)(uri ${KIPRJMOD}/../../KicadLibrary/symbol/OTPO/ISOLATORS/TLP2361.lib)(options "")(descr ""))
 )

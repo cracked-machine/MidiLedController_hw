@@ -2462,17 +2462,6 @@ F 5 "N/A" V 2200 6525 50  0001 C CNN "Type"
 	1    2200 6525
 	0    -1   1    0   
 $EndComp
-$Comp
-L Isolator:H11L1 U19
-U 1 1 5E85A506
-P 3050 6525
-F 0 "U19" H 3394 6571 50  0000 L CNN
-F 1 "H11L1" H 3394 6480 50  0000 L CNN
-F 2 "Package_DIP:SMDIP-6_W9.53mm" H 2960 6525 50  0001 C CNN
-F 3 "https://www.fairchildsemi.com/datasheets/H1/H11L1M.pdf" H 2960 6525 50  0001 C CNN
-	1    3050 6525
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	3350 6525 4100 6525
 Wire Wire Line
@@ -2487,4 +2476,15 @@ Wire Wire Line
 	4100 6525 4550 6525
 Wire Wire Line
 	3050 6125 3050 6225
+$Comp
+L TLP2361:TLP2361 U19
+U 1 1 5E7E54C8
+P 3050 6525
+F 0 "U19" H 2975 7125 50  0000 L CNN
+F 1 "TLP2361" H 2875 7025 50  0000 L CNN
+F 2 "Package_SO:SO-6_4.4x3.6mm_P1.27mm" H 2960 6525 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/TOSHIBA-TLP2361-V4-TPL-E_C123773.pdf" H 2960 6525 50  0001 C CNN
+	1    3050 6525
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
