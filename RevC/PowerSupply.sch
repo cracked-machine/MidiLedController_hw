@@ -787,21 +787,4 @@ F 4 "C15077" H 3350 6375 50  0001 C CNN "LcscNo"
 	1    3350 6375
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:C C?
-U 1 1 5E882806
-P 4000 4100
-AR Path="/5E882806" Ref="C?"  Part="1" 
-AR Path="/5DEF0009/5E882806" Ref="C?"  Part="1" 
-F 0 "C?" H 3650 4150 50  0000 L CNN
-F 1 "180pF" H 3650 4050 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4038 3950 50  0001 C CNN
-F 3 "~" H 4000 4100 50  0001 C CNN
-F 4 "N/A" H 4000 4100 50  0001 C CNN "Type"
-F 5 "C152881" H 4000 4100 50  0001 C CNN "LcscNo"
-	1    4000 4100
-	1    0    0    -1  
-$EndComp
-Connection ~ 4000 3950
-Connection ~ 4000 4250
 $EndSCHEMATC
