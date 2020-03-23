@@ -48,11 +48,11 @@ Wire Wire Line
 Wire Wire Line
 	9650 2300 9350 2300
 Wire Wire Line
-	8750 2300 8450 2300
+	8750 2300 8625 2300
 Wire Wire Line
 	8450 2300 8450 2450
 Wire Wire Line
-	9050 2600 9050 2950
+	9050 2700 9050 2950
 Wire Wire Line
 	9050 2950 8450 2950
 Wire Wire Line
@@ -79,7 +79,7 @@ F 3 "" H 9050 3150 50  0001 C CNN
 $EndComp
 Connection ~ 8450 2300
 Text Notes 8750 2150 0    50   ~ 0
-LDO 150mA Limit
+LDO 300mA Limit
 Wire Wire Line
 	9100 5225 9100 5375
 $Comp
@@ -304,18 +304,6 @@ Wire Wire Line
 Connection ~ 9775 4925
 Wire Wire Line
 	9775 4925 10050 4925
-$Comp
-L Regulator_Linear:MCP1754S-3302xCB U24
-U 1 1 5DBC0872
-P 9050 2300
-F 0 "U24" H 9050 2700 50  0000 C CNN
-F 1 "MCP1754ST-3302E/CB" H 9050 2600 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 9050 2525 50  0001 C CNN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20002276C.pdf" H 9050 2300 50  0001 C CNN
-F 4 "579-MCP1754T-3302ECB" H 9050 2300 50  0001 C CNN "MouserNo"
-	1    9050 2300
-	1    0    0    -1  
-$EndComp
 $Comp
 L Transistor_FET:DMG2301L Q21
 U 1 1 5DCE743F
@@ -787,4 +775,22 @@ F 4 "C15077" H 3350 6375 50  0001 C CNN "LcscNo"
 	1    3350 6375
 	1    0    0    -1  
 $EndComp
+$Comp
+L Regulator_Linear:TLV70033_SOT23-5 U21
+U 1 1 5E7EEDCF
+P 9050 2400
+F 0 "U21" H 9050 2975 50  0000 C CNN
+F 1 "LP3993-33B5F" H 9075 2850 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5" H 9050 2725 50  0001 C CIN
+F 3 "https://datasheet.lcsc.com/szlcsc/1811081106_LOWPOWER-LP3992-33B5F_C324570.pdf" H 9050 2450 50  0001 C CNN
+	1    9050 2400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8750 2400 8625 2400
+Wire Wire Line
+	8625 2400 8625 2300
+Connection ~ 8625 2300
+Wire Wire Line
+	8625 2300 8450 2300
 $EndSCHEMATC
