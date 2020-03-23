@@ -1,4 +1,4 @@
-16952354948491079
+16934802793275667
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -44218,20 +44218,6 @@ THT ceramic resonator filter DSS6
 0
 3
 3
-DailywellSwitches
-Dailywell_DPDT
-
-
-0
-6
-6
-DailywellSwitches
-Dailywell_SPDT
-
-
-0
-3
-3
 Diode_SMD
 D_0201_0603Metric
 Diode SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator
@@ -46885,6 +46871,13 @@ Fuse Fuseholder TR5 Littelfuse/Wickmann No. 460 No560
 0
 2
 2
+Hammond1590
+1590BB
+Inside Lid Width and Inside Box Height - https://www.hammfg.com/files/parts/pdf/1590BB.pdf
+
+0
+0
+0
 Heatsink
 Heatsink_35x26mm_1xFixation3mm_Fischer-SK486-35
 Heatsink, 35mm x 26mm, 1x Fixation 3mm, Fischer SK486-35
@@ -52261,6 +52254,34 @@ net tie
 0
 4
 4
+NeutrikNMJ
+NMJ4HFD2
+
+
+0
+4
+4
+NeutrikNMJ
+NMJ6HFD4
+NMJ6HCD2, TRS 1/4\\\\\\\\ (http://www.neutrik.com/zoolu-website/media/download/2890/Drawing+NMJ6HCD2)
+NMJ6HCD2 TRS stereo jack connector
+0
+6
+6
+NeutrikNRJ
+NRJxHx
+
+
+0
+4
+4
+NeutrikNRJ
+NRJxHx_NOTAB
+
+
+0
+4
+4
 OptoDevice
 ADNS-9800
 Laser Gaming Sensor ADNS-9800
@@ -53178,20 +53199,6 @@ DIL DIP PDIP 2.54mm 7.62mm 300mil
 0
 4
 4
-PTH901
-PTH901
-
-
-0
-6
-6
-PTH901
-PTH901_Outline
-
-
-0
-0
-0
 Package_BGA
 Analog_BGA-28_4.0x6.25mm_Layout4x7_P0.8mm_Ball0.45mm_Pad0.4
 Analog BGA-28 4.0mm x 6.25mm package, pitch 0.4mm pad, based on https://www.analog.com/media/en/technical-documentation/data-sheets/8063fa.pdf
@@ -53514,13 +53521,6 @@ Maxim_WLP-12
 0
 12
 12
-Package_BGA
-Microchip_TFBGA-196_11x11mm_Layout14x14_P0.75mm_SMD
-TFBGA-196, 11.0x11.0mm, 196 Ball, 14x14 Layout, 0.75mm Pitch, http://ww1.microchip.com/downloads/en/DeviceDoc/SAMA5D2-Series-Data-Sheet-DS60001476C.pdf#page=2956
-BGA 196 0.75
-0
-196
-196
 Package_BGA
 TFBGA-64_5x5mm_Layout8x8_P0.5mm
 TFBGA-64, 8x8 raster, 5x5mm package, pitch 0.5mm; see section 6.3 of http://www.st.com/resource/en/datasheet/stm32f100v8.pdf
@@ -66877,6 +66877,20 @@ WiFi IEEE802.11 b/g/n
 0
 44
 44
+RecomR2D
+R2D
+
+
+0
+6
+6
+RecomRS6
+RS6
+
+
+0
+7
+7
 Relay_SMD
 Relay_DPDT_AXICOM_IMSeries_JLeg
 http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Specification+Or+Standard%7F108-98001%7FW5%7Fpdf%7FEnglish%7FENG_SS_108-98001_W5.pdf
@@ -75288,69 +75302,6 @@ Varistor
 RV_Disc_D21.5mm_W11.4mm_P10mm
 Varistor, diameter 21.5mm, width 11.4mm, pitch 10mm
 varistor SIOV
-0
-2
-2
-custom_sockets
-6_35MM_JACK_MONO_FlatTop
-
-
-0
-4
-4
-custom_sockets
-6_35MM_JACK_MONO_FlatTop_notab
-
-
-0
-4
-4
-custom_sockets
-JackSocket_Mono_PCB
-
-
-0
-4
-4
-custom_sockets
-RS_5P180_DIN5_SOCKET_WSHIELD
-
-
-0
-7
-6
-custom_sw
-SW_3PDT_W18MM_L17.3MM_P5.3MM_D2MM
-
-
-0
-9
-9
-custom_sw
-SW_DPDT_1MD6_W11.43MM_L12.7MM_P4.8MM_D2MM
-
-
-0
-6
-6
-custom_sw
-SW_DPDT_W11.43MM_L12.7MM_P4.8MM_D2MM
-
-
-0
-6
-6
-custom_sw
-SW_SPDT_W6.86MM_L12.7MM_P4.8MM_D2MM
-
-
-0
-3
-3
-custom_sw
-SW_SPST_ON_ON_P7_54
-
-
 0
 2
 2
