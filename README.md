@@ -1,5 +1,8 @@
 # MIDI LED Controller (HW)
 
+
+Required Kicad Hardware library: https://github.com/cracked-machine/KicadLibrary
+
 For the corresponding SW repository:
 [MidiLedController_sw](https://github.com/cracked-machine/MidiLedController_sw)
 
